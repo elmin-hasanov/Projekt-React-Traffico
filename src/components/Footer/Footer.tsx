@@ -40,9 +40,9 @@ const Footer = () => {
           <p>Copyright @ 2019</p>
         </div>
         <div className="social">
-          <img src="./public/img/f.png" alt="Facebook" />
-          <img src="./public/img/i.png" alt="Instagram" />
-          <img src="./public/img/t.png" alt="Twitter" />
+          <img src="/img/f.png" alt="Facebook" />
+          <img src="/img/i.png" alt="Instagram" />
+          <img src="/img/t.png" alt="Twitter" />
         </div>
       </div>
     </div>

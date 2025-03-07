@@ -5,7 +5,7 @@ const Head = () => {
       <nav className="nav">
         <div className="logo">
           <div>
-            <img src="./public/img/logo.png" alt="Logo" />
+            <img src="/img/logo.png" alt="Logo" />
           </div>
           <div></div>
           <h2>TRAFICO.</h2>
@@ -23,8 +23,8 @@ const Head = () => {
         <h2>consultant.</h2>
         <button>GET STARTED ⟶</button>
       </div>
-      <img className="mobel" src="./public/img/mobel.png" alt="mobel" />
-      <img className="Group" src="./public/img/Group.png" alt="Group" />
+      <img className="mobel" src="/img/mobel.png" alt="mobel" />
+      <img className="Group" src="/img/Group.png" alt="Group" />
     </div>
   );
 };

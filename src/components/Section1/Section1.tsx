@@ -23,12 +23,12 @@ const Section1 = () => {
           </div>
         </div>
         <div>
-          <img src="./public/img/Illustration.png" alt="Illustration" />
+          <img src="/img/Illustration.png" alt="Illustration" />
         </div>
       </section>
       <section className="Section2">
         <div>
-          <img src="./public/img/howtoapply.png" alt="howtoapply" />
+          <img src="/img/howtoapply.png" alt="howtoapply" />
         </div>
         <div className="Section2Text">
           <h4>ABOUT US</h4>
