@@ -1,4 +1,8 @@
 import "./Head.css";
+
+import mobel from "../../assets/img/mobel.png";
+import Group from "../../assets/img/Group.png";
+
 const Head = () => {
   return (
     <div className="Head">
@@ -23,8 +27,8 @@ const Head = () => {
         <h2>consultant.</h2>
         <button>GET STARTED ⟶</button>
       </div>
-      <img className="mobel" src="/img/mobel.png" alt="mobel" />
-      <img className="Group" src="/img/Group.png" alt="Group" />
+      <img className="mobel" src={mobel} alt="mobel" />
+      <img className="Group" src={Group} alt="Group" />
     </div>
   );
 };

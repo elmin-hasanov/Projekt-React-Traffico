@@ -1,4 +1,7 @@
 import "./Section1.css";
+
+import Illustration from "../../assets/img/Illustration.png";
+import howtoapply from "../../assets/img/howtoapply.png";
 const Section1 = () => {
   return (
     <>
@@ -23,12 +26,12 @@ const Section1 = () => {
           </div>
         </div>
         <div>
-          <img src="/img/Illustration.png" alt="Illustration" />
+          <img src={Illustration} alt="Illustration" />
         </div>
       </section>
       <section className="Section2">
         <div>
-          <img src="/img/howtoapply.png" alt="howtoapply" />
+          <img src={howtoapply} alt="howtoapply" />
         </div>
         <div className="Section2Text">
           <h4>ABOUT US</h4>

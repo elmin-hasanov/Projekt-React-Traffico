@@ -1,4 +1,9 @@
 import "./Footer.css";
+
+import facebook from "../../assets/img/f.png";
+import twitter from "../../assets/img/t.png";
+import instagram from "../../assets/img/i.png";
+
 const Footer = () => {
   return (
     <div className="Footer">
@@ -40,9 +45,9 @@ const Footer = () => {
           <p>Copyright @ 2019</p>
         </div>
         <div className="social">
-          <img src="/img/f.png" alt="Facebook" />
-          <img src="/img/i.png" alt="Instagram" />
-          <img src="/img/t.png" alt="Twitter" />
+          <img src={facebook} alt="Facebook" />
+          <img src={instagram} alt="Instagram" />
+          <img src={twitter} alt="Twitter" />
         </div>
       </div>
     </div>
