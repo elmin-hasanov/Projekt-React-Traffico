@@ -1,11 +1,11 @@
 @font-face {
-  font-family: DMSerifDisplay;
-  src: url(./public/fonts/DMSerifDisplay-Regular.ttf);
+  font-family: "DMSerifDisplay";
+  src: url("/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Rubik;
-  src: url(./public/fonts/Rubik-VariableFont_wght.ttf);
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
 * {

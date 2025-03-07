@@ -1,11 +1,22 @@
 import "./Head.css";
-
+import backgroundImage1 from "../../assets/img/overlay.png";
+import backgroundImage2 from "../../assets/img/BG.png";
 import mobel from "../../assets/img/mobel.png";
 import Group from "../../assets/img/Group.png";
 
+import { CSSProperties } from "react";
+
 const Head = () => {
   return (
-    <div className="Head">
+    <div
+      className="Head"
+      style={
+        {
+          "--background1": `url(${backgroundImage1})`,
+          "--background2": `url(${backgroundImage2})`,
+        } as CSSProperties
+      }
+    >
       <nav className="nav">
         <div className="logo">
           <div>

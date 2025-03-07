@@ -3,10 +3,20 @@ import "./Footer.css";
 import facebook from "../../assets/img/f.png";
 import twitter from "../../assets/img/t.png";
 import instagram from "../../assets/img/i.png";
+import footer from "../../assets/img/Footer.png";
+
+import { CSSProperties } from "react";
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div
+      className="Footer"
+      style={
+        {
+          "--Footer": `url(${footer})`,
+        } as CSSProperties
+      }
+    >
       <img
         className="mobilefooter"
         src="./public/img/trekmobilfooter.png"
