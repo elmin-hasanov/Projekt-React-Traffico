@@ -3,6 +3,7 @@ import backgroundImage1 from "../../assets/img/overlay.png";
 import backgroundImage2 from "../../assets/img/BG.png";
 import mobel from "../../assets/img/mobel.png";
 import Group from "../../assets/img/Group.png";
+import Logo from "../../assets/img/logo.png";
 
 import { CSSProperties } from "react";
 
@@ -20,7 +21,7 @@ const Head = () => {
       <nav className="nav">
         <div className="logo">
           <div>
-            <img src="/img/logo.png" alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </div>
           <div></div>
           <h2>TRAFICO.</h2>
