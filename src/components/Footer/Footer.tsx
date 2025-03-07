@@ -4,6 +4,7 @@ import facebook from "../../assets/img/f.png";
 import twitter from "../../assets/img/t.png";
 import instagram from "../../assets/img/i.png";
 import footer from "../../assets/img/Footer.png";
+import Logo from "../../assets/img/logo.png";
 
 import { CSSProperties } from "react";
 
@@ -39,7 +40,7 @@ const Footer = () => {
       <nav className="footernav">
         <div className="footerlogo">
           <div>
-            <img src="./public/img/logo.png" alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </div>
           <div></div>
           <h2>TRAFICO.</h2>
