@@ -7,6 +7,7 @@ import footer from "../../assets/img/Footer.png";
 import Logo from "../../assets/img/logo.png";
 import mobelfooter from "../../assets/img/trekmobilfooter.png";
 import BtnPfleil from "../../assets/img/pfeil.svg";
+import Stone from "../../assets/img/stone.png";
 
 import { CSSProperties } from "react";
 
@@ -21,6 +22,7 @@ const Footer = () => {
       }
     >
       <img className="mobilefooter" src={mobelfooter} alt="mobel" />
+      <img className="stone" src={Stone} alt="stone" />
       <div className="FooterText">
         <div>
           <p></p>
