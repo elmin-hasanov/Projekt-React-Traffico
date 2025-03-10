@@ -46,11 +46,11 @@ button {
   width: 11vw;
   height: 2.5vw;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0px 0px 20px 0px #b4b4b4;
+  box-shadow: 0px 0px 5px 0px #ffffff;
 }
 
 button:hover {
-  background-color: #bb413d;
+  background-color: #f05b56;
 }

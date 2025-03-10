@@ -74,6 +74,7 @@
   padding-right: 35vw;
   padding-left: 16vw;
   position: relative;
+  align-items: center;
   top: 1rem;
   z-index: 1;
   font-size: 1vw;

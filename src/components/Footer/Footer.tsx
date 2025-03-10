@@ -42,7 +42,7 @@ const Footer = () => {
           <div></div>
           <h2>TRAFICO.</h2>
         </div>
-        <div className="navlinks">
+        <div>
           <a href="#">ABOUT</a>
           <a href="#">HOW TO</a>
           <a href="#">FAQS</a>

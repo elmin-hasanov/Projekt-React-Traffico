@@ -4,6 +4,7 @@ import backgroundImage2 from "../../assets/img/BG.png";
 import mobel from "../../assets/img/mobel.png";
 import Group from "../../assets/img/Group.png";
 import Logo from "../../assets/img/logo.png";
+import Mond from "../../assets/img/Vector2.png";
 
 import { CSSProperties } from "react";
 
@@ -26,7 +27,7 @@ const Head = () => {
           <div></div>
           <h2>TRAFICO.</h2>
         </div>
-        <div className="navlinks">
+        <div>
           <a href="#">ABOUT</a>
           <a href="#">HOW TO</a>
           <a href="#">FAQS</a>
@@ -41,6 +42,7 @@ const Head = () => {
       </div>
       <img className="mobel" src={mobel} alt="mobel" />
       <img className="Group" src={Group} alt="Group" />
+      <img className="Mond" src={Mond} alt="Mond" />
     </div>
   );
 };

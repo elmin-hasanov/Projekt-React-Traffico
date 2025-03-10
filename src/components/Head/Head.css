@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-top: 1vw;
   padding-right: 25vw;
   padding-left: 10vw;
@@ -28,6 +29,7 @@
     color: white;
     font-size: 2vw;
     font-weight: normal;
+    text-shadow: #e59f7c 0px 0px 10px;
   }
 }
 
@@ -38,6 +40,7 @@
   padding-top: 2.5vw;
   padding-left: 12vw;
   color: white;
+  text-shadow: #e59f7c 0px 0px 10px;
   z-index: 8;
   font-size: 2.7vw;
 
@@ -125,6 +128,27 @@
 }
 
 @keyframes fadeInGroup {
+  from {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.Mond {
+  position: absolute;
+  left: 51vw;
+  top: 4vw;
+  animation: mobelfade 4s ease-in-out forwards;
+  width: 30vw;
+  height: 26vw;
+  z-index: 2;
+}
+
+@keyframes mobelfadezurück {
   from {
     opacity: 1;
     transform: translateX(100%);
