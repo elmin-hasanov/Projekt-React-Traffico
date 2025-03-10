@@ -5,6 +5,7 @@ import twitter from "../../assets/img/t.png";
 import instagram from "../../assets/img/i.png";
 import footer from "../../assets/img/Footer.png";
 import Logo from "../../assets/img/logo.png";
+import mobelfooter from "../../assets/img/trekmobilfooter.png";
 
 import { CSSProperties } from "react";
 
@@ -18,11 +19,7 @@ const Footer = () => {
         } as CSSProperties
       }
     >
-      <img
-        className="mobilefooter"
-        src="./public/img/trekmobilfooter.png"
-        alt="mobel"
-      />
+      <img className="mobilefooter" src={mobelfooter} alt="mobel" />
       <div className="FooterText">
         <div>
           <p></p>
