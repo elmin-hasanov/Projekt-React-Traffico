@@ -15,6 +15,10 @@
     color: white;
     padding: 3vw;
   }
+  a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
 }
 
 .logo {

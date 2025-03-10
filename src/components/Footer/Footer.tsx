@@ -6,6 +6,7 @@ import instagram from "../../assets/img/i.png";
 import footer from "../../assets/img/Footer.png";
 import Logo from "../../assets/img/logo.png";
 import mobelfooter from "../../assets/img/trekmobilfooter.png";
+import BtnPfleil from "../../assets/img/pfeil.svg";
 
 import { CSSProperties } from "react";
 
@@ -31,7 +32,9 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <button>GET STARTED ⟶</button>
+          <button>
+            GET STARTED <img className="BtnPfleil" src={BtnPfleil} />
+          </button>{" "}
         </div>
       </div>
       <nav className="footernav">

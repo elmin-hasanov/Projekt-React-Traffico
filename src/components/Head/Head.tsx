@@ -5,6 +5,7 @@ import mobel from "../../assets/img/mobel.png";
 import Group from "../../assets/img/Group.png";
 import Logo from "../../assets/img/logo.png";
 import Mond from "../../assets/img/Vector2.png";
+import BtnPfleil from "../../assets/img/pfeil.svg";
 
 import { CSSProperties } from "react";
 
@@ -38,7 +39,9 @@ const Head = () => {
         <h2>Your awesome</h2>
         <h2>traffic permit</h2>
         <h2>consultant.</h2>
-        <button>GET STARTED ⟶</button>
+        <button>
+          GET STARTED <img className="BtnPfleil" src={BtnPfleil} />
+        </button>
       </div>
       <img className="mobel" src={mobel} alt="mobel" />
       <img className="Group" src={Group} alt="Group" />

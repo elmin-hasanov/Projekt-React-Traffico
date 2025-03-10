@@ -54,3 +54,8 @@ button {
 button:hover {
   background-color: #f05b56;
 }
+
+.BtnPfleil {
+  width: 1.5vw;
+  margin-left: 6px;
+}
